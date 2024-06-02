@@ -113,12 +113,6 @@ h3 {
         font-size: 1rem;
     }
 
-    .input-box span {
-        font-size: 1.5rem;
-        top: 14px;
-        right: 6px;
-    }
-
     .passwordBox {
         font-size: 18px;
     }
@@ -143,12 +137,6 @@ h3 {
         font-size: 0.9rem;
     }
 
-    .input-box span {
-        font-size: 1.2rem;
-        top: 12px;
-        right: 4px;
-    }
-
     .passwordBox {
         font-size: 16px;
     }
@@ -162,5 +150,3 @@ h3 {
         padding: 0.5em 1em;
     }
 }
-
-
