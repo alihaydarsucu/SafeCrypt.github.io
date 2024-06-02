@@ -102,3 +102,65 @@ h3 {
     background-color: #0b78ec;
 }
 
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        box-shadow: 4px 4px 2px #8a8686;
+    }
+
+    .slogan, h3 {
+        font-size: 1rem;
+    }
+
+    .input-box span {
+        font-size: 1.5rem;
+        top: 14px;
+        right: 6px;
+    }
+
+    .passwordBox {
+        font-size: 18px;
+    }
+
+    .row {
+        font-size: 1.1em;
+    }
+
+    .generator {
+        font-size: 1.1em;
+        padding: 0.6em 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 16px;
+        box-shadow: 2px 2px 1px #8a8686;
+    }
+
+    .slogan, h3 {
+        font-size: 0.9rem;
+    }
+
+    .input-box span {
+        font-size: 1.2rem;
+        top: 12px;
+        right: 4px;
+    }
+
+    .passwordBox {
+        font-size: 16px;
+    }
+
+    .row {
+        font-size: 1em;
+    }
+
+    .generator {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+}
+
+
